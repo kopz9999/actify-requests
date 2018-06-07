@@ -17,7 +17,7 @@
     for (var i = 0; i < forms.length; ++i) {
       formPtr = forms.eq(i);
       formPtr.submit(function() {
-        sendEvent(formPtr.attr('id') || formPtr.attr('name'));
+        sendEvent(formPtr.attr('id') || formPtr.attr('name') || formPtr.attr('action'));
       });
     }
   }
