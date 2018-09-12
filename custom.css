@@ -1,7 +1,7 @@
 .mobile-header-row > .row_inner_wrapper > .row_inner > .first {
-  width:42%;
+  width: 42% !important;
 }
 
 .mobile-header-row > .row_inner_wrapper > .row_inner > .last {
-  width:58%;
+  width:58% !important;
 }
